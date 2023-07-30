@@ -3,7 +3,7 @@ import "./index.css";
 import twitterlogo from './images/twitter.png'
 
 function App() {
-	const [quote, setQuote] = useState("");
+	const [quote, setQuote] = useState('');
 	const [author, setAuthor] = useState("");
 	const [color, setColor] = useState("#000");
 
@@ -41,7 +41,7 @@ function App() {
 
 	return (
 		<div className="parent-div" style={{ backgroundColor: color }}>
-			<div id="quote-box">
+			<div id="quote-box" className="quote-box">
 				<h1 id="text" style={{color:color}}>"{quote}"</h1>
 				<h3 id="author">-{author}</h3>
 				<button id="new-quote" style={{backgroundColor:color}}onClick={fetchQuote}>

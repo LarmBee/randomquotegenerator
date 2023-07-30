@@ -55,10 +55,41 @@
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 50%;
+  
 }
 .twitter-logo{
   width:4%;
   height:4%;
   margin-top:5px;
 }
+
+
+/* Media queries for different devices */
+
+/* Small devices (up to 576px) */
+@media (max-width: 576px) {
+  .quote-box {
+    max-width: 300px;
+    background-color: yellow;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+
+  button {
+    font-size: 1px;
+    
+  }
+
+  .twitter-logo {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+  }
+}
+
