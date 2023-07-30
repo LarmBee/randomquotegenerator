@@ -69,7 +69,7 @@
 /* Small devices (up to 576px) */
 @media (max-width: 576px) {
   .quote-box {
-    max-width: 300px;
+    max-width: fit-content;
     background-color: yellow;
   }
 
